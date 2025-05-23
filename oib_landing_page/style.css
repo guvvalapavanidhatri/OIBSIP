@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #f8f8f8;
+}
+
+
+.intro-container{
+    display: flex;
+    align-items: center;
+}
+.left-container{
+    background-image: url(images/bg.jpg);
+    height: 580px;
+    width: 40%;
+    color: white;
+    padding:70px;
+    text-align: right;
+    position: relative;
+}
+
+
+.right-container{
+    background: #00292b;
+    width: 60%;
+    height: 580px;
+    color: white;
+    padding-top:30px;
+    text-align:right;
+    padding-right:70px;
+    position: relative;
+}
+
+.nav-section{
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:right;
+    margin-bottom: 50px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 35px;
+    cursor: pointer;
+    font-family:  sans-serif,Verdana, Geneva, Tahoma;
+    font-size: 24px;
+}
+
+nav ul li:hover{
+    background-color: rgb(235, 141, 17);
+    border: none;
+    padding: 15px 20px;
+}
+
+ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+
+.right-h1{
+    color: rgb(235, 141, 17);
+    opacity: 0.7;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.p-head{
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 22px;
+}
+
+.para{
+    margin-top:20px;
+    line-height: 25px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+.explore-btn{
+    width:130px;
+    height:50px;
+    background-color:rgb(235, 141, 17) ;
+    opacity: 0.8;
+    color:black;
+    border:none;
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.explore-btn:hover{
+    height:55px;
+    width:150px;
+}
+
+.see-btn{
+    width:130px;
+    height:50px;
+    color:rgb(235, 141, 17);
+    border:1px solid rgb(235, 141, 17);
+    background-color: transparent;
+    margin-left: 30px;
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.see-btn:hover{
+    height:55px;
+    width:150px;
+}
+
+
+.women-img{
+    position: absolute;
+    bottom: 0;
+    left: 250px;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 450px;
+    justify-self: center;
+}
+
+
+
+
+.places{
+    background-color:#00292b ;
+}
+
+.places h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size:28px;
+    display: block;
+    background-color: white;
+    height: 90px;
+    font-size: 30px;
+    padding-top:25px;
+}
+
+.place-section{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 10px;
+}
+
+.place-card{
+    background-color: #fff;
+    margin:30px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.place-card  img{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.place-card h1{
+    font-size: 22px;
+    padding: 10px;
+    margin-bottom: 0px;
+    height: 50px;
+}
+
+.place-card p{
+    /* margin-top:0; */
+    font-size: 18px;
+    padding: 20px;
+}
+
+.place-card a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(235, 141, 17);
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.about-us{
+    text-align: center;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+
+.about-h1{
+    color: rgb(247, 169, 24);
+    /* opacity: 0.7; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-us{
+    margin: 30px;
+    text-align: center;
+}
+
+.feed-details{
+    width:700px;
+    margin-bottom: 30px;
+    padding: 8px;
+    border: 1px solid rgb(235, 141, 17);
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgb(235, 141, 17);
+}
+
+
+input{
+    height: 40px;
+}
+
+textarea{
+    height: 100px;
+}
+
+.send-btn{
+    height:30px;
+    text-align: center;
+    background-color: rgb(235, 141, 17);
+    border: none;
+    color: white;
+}
+
+.send-btn:hover{
+    opacity: 0.8;
+}
+footer p{
+    background-color: rgb(235, 141, 17);
+    height: 40px;
+    padding:10px 0;
+    text-align: center;
+    font-size: larger;
+    opacity:0.8;
+}
